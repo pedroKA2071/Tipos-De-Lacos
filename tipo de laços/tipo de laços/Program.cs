@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -81,10 +82,15 @@ namespace tipo_de_laços
                         Console.WriteLine("Para de ser baiano");
                         break;
                     default:
-                        Console.WriteLine("Colaca Algo valido POHA, EU EM PARA DE SER PAULIN");
+                        Console.WriteLine("Errou foi muleke");
                         break;
 
                 }
+                
+            }
+            else if (menu == 4) 
+            { 
+            //
             }
             Console.WriteLine("Press Enter To Finish");
             Console.ReadKey();
